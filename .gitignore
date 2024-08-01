@@ -92,5 +92,3 @@ cython_debug/
 *.log
 *.sqlite3
 
-# Ignore the test file itself, if desired
-test_lambda_function.py
