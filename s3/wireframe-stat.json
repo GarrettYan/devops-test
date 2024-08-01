@@ -1,0 +1,20 @@
+[
+  {
+    "title": "completed",
+    "count": 80,
+    "percent": 6,
+    "trend": "down"
+  },
+  {
+    "title": "In Progress",
+    "count": 10,
+    "percent": 6,
+    "trend": "down"
+  },
+  {
+    "title": "Not Started",
+    "count": 30,
+    "percent": 10,
+    "trend": "up"
+  }
+]
