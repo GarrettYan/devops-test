@@ -39,5 +39,5 @@ jobs:
           AWS_REGION: us-east-2
         run: |
           aws lambda update-function-code \
-            --function-name S3JsonRetriever \
+            --function-name EpidaurusHealthS3JsonRetriever \
             --zip-file fileb://function.zip
