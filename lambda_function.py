@@ -6,7 +6,7 @@ from botocore.exceptions import ClientError
 
 def lambda_handler(event, context):
     s3 = boto3.client('s3')
-    bucket_name = 'your-bucket-name' # TODO use real bucket here
+    bucket_name = 'epidaurus-health-json-storage'
     file_key = 'wireframe-stat.json'
 
     try:
