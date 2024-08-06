@@ -5,7 +5,7 @@ from botocore.exceptions import ClientError
 
 
 def lambda_handler(event, context):
-    print("Hello Garrett, How are you?")
+    # print("Hello Garrett, How are you?")
 
     s3 = boto3.client('s3')
     bucket_name = 'epidaurus-health-json-storage'
